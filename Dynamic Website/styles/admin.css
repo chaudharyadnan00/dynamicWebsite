@@ -1,0 +1,178 @@
+*body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#formType {
+    text-align: center;
+    border: 1px solid #909090;
+    width: 30%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+}
+.fileInput{
+    padding: 8px 15px;
+    border: none;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 8px;
+    background-color: blue;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+td,
+th {
+    text-align: left;
+    padding: 16px;
+    border: 1px solid #dddddd;
+}
+th{
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th:nth-child(even) {
+    color: #f2f2f2;
+    background-color: #4FC3A1;
+    
+
+}
+th:nth-child(odd) {
+    color: #f2f2f2;
+    background-color:#324960;;
+
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    outline: none;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+/* 3 */
+.btn-3 {
+    line-height: 39px;
+    padding: 0;
+}
+
+.btn-3:hover {
+    background: transparent;
+    color: rgb(203, 77, 77);
+}
+
+.btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-3:before,
+.btn-3:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.btn-3:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-3:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-3:hover:before {
+    height: 100%;
+}
+
+.btn-3:hover:after {
+    width: 100%;
+}
+
+.btn-3 span:before,
+.btn-3 span:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.btn-3 span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.btn-3 span:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-3 span:hover:before {
+    height: 100%;
+}
+
+.btn-3 span:hover:after {
+    width: 100%;
+}
